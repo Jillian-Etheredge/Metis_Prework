@@ -135,7 +135,9 @@ time.
 Let's get a bit fancier and load in a dataset. Let's pull it from the internet
 using `curl`.
 
-```curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data```
+```bash
+curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data
+```
 
 _(note, you might need to use `wget` if your system says `curl` isn't
 installed. Just swap in `wget` any place you see `curl`)_
@@ -145,8 +147,7 @@ Nice.
 
 > Let's save the output of the `curl` command to a file called `data.txt`. How
 would we do that?
-```bash
-curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt```
+```curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt```
 
 Now that we have the data file, let's learn how to manipulate files.
 
@@ -194,6 +195,7 @@ ls -lh
 ```
 
 > What changed?
+```It changed the way the size of the files is presented```
 
 If instead copying we just want to change the name of a file, we can do:
 
