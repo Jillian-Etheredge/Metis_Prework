@@ -135,9 +135,7 @@ time.
 Let's get a bit fancier and load in a dataset. Let's pull it from the internet
 using `curl`.
 
-```bash
-curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data
-```
+```curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data```
 
 _(note, you might need to use `wget` if your system says `curl` isn't
 installed. Just swap in `wget` any place you see `curl`)_
