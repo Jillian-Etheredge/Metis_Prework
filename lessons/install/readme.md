@@ -55,7 +55,7 @@ In the Terminal:
 
 `python3 --version`
 
-3.7.3
+3.7.9
 
  
 

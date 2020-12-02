@@ -122,6 +122,9 @@ why.
 
 > Hint: we learned how to list all the files up above.
 
+```Instead of stdout it created a new file, so the output is appearing in that txt file
+and not in the terminal```
+
 The greater than says, "put that output into the following file instead."
 
 What if we want to read that file back out to the terminal?
@@ -147,6 +150,7 @@ Nice.
 
 > Let's save the output of the `curl` command to a file called `data.txt`. How
 would we do that?
+
 ```curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt```
 
 Now that we have the data file, let's learn how to manipulate files.
@@ -195,6 +199,7 @@ ls -lh
 ```
 
 > What changed?
+
 ```It changed the way the size of the files is presented```
 
 If instead copying we just want to change the name of a file, we can do:
