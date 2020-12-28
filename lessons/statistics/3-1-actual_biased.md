@@ -13,6 +13,7 @@ I first took the NSFG respondent variable numkdhh and converted it into a Pmf ob
     pmf=thinkstats2.Pmf(resp.numkdhh, label='numkdhh')
     thinkplot.Pmf(pmf)
     thinkplot.Config(xlabel="Number of Children",ylabel="PMF")
-    ![Unbiased distribution of number of children under 18 per household](../StatsImages/ch3ex1.png)
+    
 ---
 
+![Unbiased distribution of number of children under 18 per household](../StatsImages/ch3ex1.png)
