@@ -16,4 +16,4 @@ I first took the NSFG respondent variable numkdhh and converted it into a Pmf ob
     
 ---
 
-![Unbiased distribution of number of children under 18 per household](../StatsImages/ch3ex1.png)
+![Unbiased distribution of number of children under 18 per household](../../img/ch3ex1.png)
